@@ -12,7 +12,7 @@ def fizzbuzz(x)
     return "Buzz"
   end
   
-  elseif x % 15 == 0
+  if x % 15 == 0
     return "FizzBuzz"
   end
   
