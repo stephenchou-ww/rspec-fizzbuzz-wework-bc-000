@@ -1,3 +1,6 @@
-
-
+def fizzbuzz(x)
+  
+  
+  
+end
 
