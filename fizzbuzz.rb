@@ -8,7 +8,7 @@ def fizzbuzz(x)
     return "Fizz"
   end
   
-  elseif x % 5 == 0
+  if x % 5 == 0
     return "Buzz"
   end
   
