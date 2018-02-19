@@ -1,3 +1,7 @@
+input = 5
+
+fizzbuzz(input)
+
 def fizzbuzz(x)
   
   if x % 3 == 0
