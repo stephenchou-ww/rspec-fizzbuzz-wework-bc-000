@@ -1,14 +1,14 @@
 
 def fizzbuzz(x)
   
-  if x % 15 == 0
-    return "FizzBuzz"
+  if x % 3 == 0 && x % 15 != 0
+    return "Fizz"
   
-  elsif x % 5 == 0
+  elsif x % 5 == 0 && x % 15 != 0
     return "Buzz"
   
-  elsif x % 3 == 0
-    return "Fizz"
+  elsif x % 15 == 0
+    return "FizzBuzz"
   
   else
     return nil
