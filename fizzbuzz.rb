@@ -4,15 +4,17 @@ def fizzbuzz(x)
     return "Fizz"
   end
   
-  if x % 5 == 0
+  elsif x % 5 == 0
     return "Buzz"
   end
   
-  if x % 15 == 0
+  elsif x % 15 == 0
     return "FizzBuzz"
   end
   
-  else 
+  else
+    return nil
+  end
   
 end
 
