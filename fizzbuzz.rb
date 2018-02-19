@@ -1,6 +1,3 @@
-input = 5
-
-fizzbuzz(input)
 
 def fizzbuzz(x)
   
